@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(auto-fit, 500px);
+    
+}
+
+img{
+    width: auto;
+    height: 225px;
+    align-items: center;
+}
+
+.grid_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: .5px solid black;
+    margin: 5px;
+}

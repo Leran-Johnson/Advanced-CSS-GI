@@ -1,0 +1,19 @@
+*{
+    padding:0;
+}
+
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.black_box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.white_box{
+    width: 100px;
+    height:  100px;
+}
